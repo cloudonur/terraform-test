@@ -1,0 +1,10 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfplan
+tfplan
+*.tfstate
+*.tfstate.*
+
+# Generated plan handed to iac-sentinel
+plan.json
